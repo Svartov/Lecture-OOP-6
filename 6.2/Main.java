@@ -18,7 +18,7 @@ public class Main {
         }
 
         long start = System.currentTimeMillis();
-        long sumInOneStream  = CalculateSum.CalculateSum(array);
+        long sumInOneStream  = CalculateSum.calculateSum(array);
         long finish = System.currentTimeMillis();
 
         System.out.println(finish - start + " MS [sum - " + sumInOneStream);
